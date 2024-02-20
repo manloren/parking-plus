@@ -30,20 +30,33 @@
         <div class="contenedor-formulario">
             <p style="text-align: center;color: var(--grisOscuro);">Ingreso al sistema</p>
             <form>
-                <label>Usuario</label>
-                <input type="text" />
+                <label style="font-weight: bold;">Usuario</label>
+                <input type="text" id="Usuario"/>
         
-                <label>Clave</label>
-                <input type="password" />
+                <label style="font-weight: bold;">Clave</label>
+                <input type="password" id="Clave"/>
         
-                <button>Ingresar</button>
+                <button onclick="ingresarAlSistema()">Ingresar</button>
         
             </form>
         </div>
         <p>Loren Rodriguez-SystemPlus Popayan</p>
     </div>
 
-    
+    <script>
+     function ingresarAlSistema(){ 
+        const inputUsuario = document.getElementById('Usuario');
+        const inputClave = document.getElementById('Clave');
+
+        if(inputUsuario.value == "loren" && inputClave.value == 456789){
+            alert("puedes ingresar al sistema");
+        } else {
+            alert("No estas autorizado a ingresar");
+
+        }
+
+    }
+    </script>
 
     
 
