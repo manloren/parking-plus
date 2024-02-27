@@ -50,9 +50,9 @@
         <div class="control-form">
             <label>tipo Vehiculo</label>
             <select name="tipoVehiculo">
-                <option value="">Carro</option>
-                <option value="">Moto</option>
-                <option value="">Otro</option>
+                <option value="carro">Carro</option>
+                <option value="moto">Moto</option>
+                <option value="otro">Otro</option>
             </select>
         </div>
 
