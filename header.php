@@ -1,4 +1,6 @@
 <header>
+<a href="dashboard.php">
+
     <div class="encabezado-logo">
         <i class="fa-solid fa-square-parking rojo" style="font-size: 4rem;"></i>
         <h3>
@@ -7,6 +9,7 @@
 
         </h3>
     </div>
+</a>
     <h3 style="color: white;">
         <?php echo $nombrePagina; ?>
 
